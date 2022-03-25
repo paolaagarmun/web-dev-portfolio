@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'JetBrains Mono', monospace;
+  background-color: #E3C598;
+}
+
+.body {
+    padding: 5px;
+}
+
+hr {
+    background: none;
+
+    width: 60rem;
+    margin: 0 auto
+}
+
+/* header */
+.header {
+  height: 15rem;
+  /* background-image: url('./images/matt-duncan-IUY_3DvM__w-unsplash.png');
+    background-position: center; */
+  /* add opacity */
+  background: rgb(110, 97, 47);
+  background: linear-gradient(
+    0deg,
+    rgba(110, 97, 47, 0.9604137569832403) 0%,
+    rgba(227, 197, 152, 0.8486819134078212) 100%
+  );
+  border-radius: 0 0 50% 50%;
+}
+.header p {
+    background: none;
+}
+.explore-box{
+    background-color: #6E352C;
+    width: 15rem;
+    height: 3rem;
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    margin-top: -2rem;
+    margin-right: 50%;
+    margin-left: 40%;
+    margin-bottom: 0;
+}
+.explore-box h3 {
+    background: none;
+}
+/* projects */
+
+.project1{
+    display: flex;
+    justify-content: space-around;
+
+}
+.project-description {
+    width: 40vw;
+}
+.project-title {
+    font-size: large;
+    font-weight: 600;
+}
+.project-image img{
+    width: 35rem;
+    border: 2px dashed #CF5230;
+    border-radius: 10px;
+}
