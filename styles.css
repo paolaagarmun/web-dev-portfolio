@@ -30,7 +30,7 @@ hr {
   );
   border-radius: 0 0 50% 50%;
 }
-.header p {
+.header p,a {
     background: none;
 }
 .explore-box{
@@ -68,3 +68,14 @@ hr {
     border: 2px dashed #CF5230;
     border-radius: 10px;
 }
+
+.tech-stack-item {
+    font-size: 1.9rem;
+}
+code {
+    font-family: Consolas,"courier new";
+    color:#CF5230;
+    background-color:rgba(227, 197, 152, 0.8486819134078212);
+    padding: 2px;
+    font-size: 105%;
+  }
